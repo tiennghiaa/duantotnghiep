@@ -1541,725 +1541,741 @@ SET IDENTITY_INSERT [dbo].[Products] ON
 
 INSERT [dbo].[Products] ([Id], [Code], [Name], [Price], [Quality], [Views], [Description], [Specification], [Image1], [Image2], [Image3], [Image4], [Image5], [Active], [Manu_Id], [Cate_Id], [NameSearch], [CreateDay], [PersonCreate], [DeleteDay], [PersonDelete], [UpdateDay], [PersonUpdate], [Sales]) VALUES (1, N'CTPL01', N'Hỏi - Đáp Bộ Luật Hình Sự 2015', 150000, 13, 0, N'Thế hệ trẻ trong một xã hội trải qua nhiều biến đổi trong hơn ba thập kỷ Đổi mới vừa qua sẵn sàng về mặt tâm lý xã hội đến mức nào? Nhằm làm rõ vấn đề này, Nhà xuất bản Khoa học xã hội xuất bản cuốn sách chuyên khảo “Thái độ của thanh niên với người già và mối quan hệ của họ với ông bà”, do PGS.TS Lê Văn Hảo chủ biên cùng tập thể tác giả.', N'<table class="table table-bordered">
 										<thead>
-											<tr>
-												<td colspan="2"><strong>Thông số chi tiết</strong></td>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Màn hình:</td>
-												<td>OLED6.1"Super Retina XDR</td>
-											</tr>
-											<tr>
-												<td>Hệ điều hành:</td>
-												<td>iOS 14</td>
-											</tr>
-											<tr>
-												<td>Camera sau:</td>
-												<td>2 camera 12 MP</td>
-											</tr>
-											<tr>
-												<td>Camera trước:</td>
-												<td>12 MP</td>
-											</tr>
-											<tr>
-												<td>Chip:</td>
-												<td>Apple A14 Bionic</td>
-											</tr>
-											<tr>
-												<td>Ram:</td>
-												<td>4GB</td>
-											</tr>
-											<tr>
-												<td>Bộ nhớ trong:</td>
-												<td>64GB</td>
-											</tr>
-											<tr>
-												<td>SIM:</td>
-												<td>1 Nano SIM &amp; 1 eSIMHỗ trợ 5G</td>
-											</tr>
-											<tr>
-												<td>Pin, Sạc:</td>
-												<td>2815 mAh20 W</td>
-											</tr>
-										</tbody>
+	<tr>
+		<td colspan="2"><strong>Thông số chi tiết</strong></td>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Tên sách:</td>
+		<td>Đắc Nhân Tâm</td>
+	</tr>
+	<tr>
+		<td>Tác giả:</td>
+		<td>Dale Carnegie</td>
+	</tr>
+	<tr>
+		<td>Thể loại:</td>
+		<td>Kỹ năng sống</td>
+	</tr>
+	<tr>
+		<td>Ngôn ngữ:</td>
+		<td>Tiếng Việt</td>
+	</tr>
+	<tr>
+		<td>Nhà xuất bản:</td>
+		<td>NXB Trẻ</td>
+	</tr>
+	<tr>
+		<td>Năm xuất bản:</td>
+		<td>2023</td>
+	</tr>
+	<tr>
+		<td>Số trang:</td>
+		<td>320</td>
+	</tr>
+	<tr>
+		<td>Kích thước:</td>
+		<td>14 x 20.5 cm</td>
+	</tr>
+	<tr>
+		<td>Định dạng:</td>
+		<td>Bìa mềm</td>
+	</tr>
+</tbody>
+
 									</table>', N'chinhtri1.PNG', N'chinhtri1.PNG', N'chinhtri1.PNG', N'chinhtri1.PNG', N'chinhtri1.PNG', 1, 1, 2, N'hoi-dap-bo-luat-hinh-su-2015', CAST(N'2025-10-10T17:30:25.843' AS DateTime), 3, NULL, 0, CAST(N'2025-12-07T19:45:01.423' AS DateTime), 3, 0)
 INSERT [dbo].[Products] ([Id], [Code], [Name], [Price], [Quality], [Views], [Description], [Specification], [Image1], [Image2], [Image3], [Image4], [Image5], [Active], [Manu_Id], [Cate_Id], [NameSearch], [CreateDay], [PersonCreate], [DeleteDay], [PersonDelete], [UpdateDay], [PersonUpdate], [Sales]) VALUES (3, N'CTPL02', N'Thế giới còn đổi thay, nhưng tư tưởng Hồ Chí Minh sống mãi', 190000, 34, 1, N'Nội dung sách gồm 2 phần:Phần thứ nhất: Câu hỏi trắc nghiệm bán tự luậnPhần thứ hai: Câu hỏi tự luậnCuốn sách không chỉ có ý nghĩa lý luận, ý nghĩa lịch sử mà còn có ý nghĩa chính trị, pháp lý và thực tiễn bổ ích giúp bạn đọc và những người quan tâm nghiên cứu luật như giảng viên, học viên, sinh viên ...', N'<table class="table table-bordered">
 										<thead>
-											<tr>
-												<td colspan="2"><strong>Thông số chi tiết</strong></td>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Màn hình:</td>
-												<td>AMOLED6.43"Full HD+</td>
-											</tr>
-											<tr>
-												<td>Hệ điều hành:</td>
-												<td>Android 11</td>
-											</tr>
-											<tr>
-												<td>Camera sau:</td>
-												<td>Chính 64 MP & Phụ 8 MP, 2 MP, 2 MP</td>
-											</tr>
-											<tr>
-												<td>Camera trước:</td>
-												<td>13 MP</td>
-											</tr>
-											<tr>
-												<td>Chip:</td>
-												<td>MediaTek Helio G95</td>
-											</tr>
-											<tr>
-												<td>Ram:</td>
-												<td>8GB</td>
-											</tr>
-											<tr>
-												<td>Bộ nhớ trong:</td>
-												<td>128GB</td>
-											</tr>
-											<tr>
-												<td>SIM:</td>
-												<td>2 Nano SIMHỗ trợ 4G</td>
-											</tr>
-											<tr>
-												<td>Pin, Sạc:</td>
-												<td>5000 mAh33 W</td>
-											</tr>
-										</tbody>
+	<tr>
+		<td colspan="2"><strong>Thông số chi tiết</strong></td>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Tên sách:</td>
+		<td>Nhà Giả Kim</td>
+	</tr>
+	<tr>
+		<td>Tác giả:</td>
+		<td>Paulo Coelho</td>
+	</tr>
+	<tr>
+		<td>Thể loại:</td>
+		<td>Tiểu thuyết, truyền cảm hứng</td>
+	</tr>
+	<tr>
+		<td>Ngôn ngữ:</td>
+		<td>Tiếng Việt</td>
+	</tr>
+	<tr>
+		<td>Nhà xuất bản:</td>
+		<td>NXB Văn học</td>
+	</tr>
+	<tr>
+		<td>Năm xuất bản:</td>
+		<td>2022</td>
+	</tr>
+	<tr>
+		<td>Số trang:</td>
+		<td>228</td>
+	</tr>
+	<tr>
+		<td>Kích thước:</td>
+		<td>13 x 20.5 cm</td>
+	</tr>
+	<tr>
+		<td>Định dạng:</td>
+		<td>Bìa mềm</td>
+	</tr>
+</tbody>
+
 									</table>', N'chinhtri2.PNG', N'chinhtri2.PNG', N'chinhtri2.PNG', N'chinhtri2.PNG', N'chinhtri2.PNG', 1, 4, 2, N'the gioi', CAST(N'2025-10-11T17:08:37.767' AS DateTime), 3, NULL, 0, NULL, 0, 0)
 INSERT [dbo].[Products] ([Id], [Code], [Name], [Price], [Quality], [Views], [Description], [Specification], [Image1], [Image2], [Image3], [Image4], [Image5], [Active], [Manu_Id], [Cate_Id], [NameSearch], [CreateDay], [PersonCreate], [DeleteDay], [PersonDelete], [UpdateDay], [PersonUpdate], [Sales]) VALUES (5, N'KHCN-KT01', N'Thương mại điện tử căn bản, Toán Học, Một Thiên Tiểu Thuyết', 200000, 35, 0, N'Sự phát triển nhanh chóng của công nghệ thông tin và viễn thông đã tạo ra nền tảng cho hàng loạt ứng dụng và hoạt động kinh doanh thương mại thông qua sử dụng các thiết bị điện tử. Thực tế đó đã làm nảy sinh một hình thức thực thi thương mại hoàn toàn mới - thương mại điện tử.', N'<table class="table table-bordered">
 										<thead>
-											<tr>
-												<td colspan="2"><strong>Thông số chi tiết</strong></td>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Màn hình:</td>
-												<td>AMOLED6.43"Full HD+</td>
-											</tr>
-											<tr>
-												<td>Hệ điều hành:</td>
-												<td>Android 11</td>
-											</tr>
-											<tr>
-												<td>Camera sau:</td>
-												<td>Chính 64 MP & Phụ 8 MP, 2 MP, 2 MP</td>
-											</tr>
-											<tr>
-												<td>Camera trước:</td>
-												<td>13 MP</td>
-											</tr>
-											<tr>
-												<td>Chip:</td>
-												<td>MediaTek Helio G95</td>
-											</tr>
-											<tr>
-												<td>Ram:</td>
-												<td>8GB</td>
-											</tr>
-											<tr>
-												<td>Bộ nhớ trong:</td>
-												<td>128GB</td>
-											</tr>
-											<tr>
-												<td>SIM:</td>
-												<td>2 Nano SIMHỗ trợ 4G</td>
-											</tr>
-											<tr>
-												<td>Pin, Sạc:</td>
-												<td>5000 mAh33 W</td>
-											</tr>
-										</tbody>
+	<tr>
+		<td colspan="2"><strong>Thông số chi tiết</strong></td>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Tên sách:</td>
+		<td>Harry Potter và Hòn đá Phù thủy</td>
+	</tr>
+	<tr>
+		<td>Tác giả:</td>
+		<td>J.K. Rowling</td>
+	</tr>
+	<tr>
+		<td>Thể loại:</td>
+		<td>Giả tưởng, phiêu lưu</td>
+	</tr>
+	<tr>
+		<td>Ngôn ngữ:</td>
+		<td>Tiếng Việt</td>
+	</tr>
+	<tr>
+		<td>Nhà xuất bản:</td>
+		<td>NXB Trẻ</td>
+	</tr>
+	<tr>
+		<td>Năm xuất bản:</td>
+		<td>2023</td>
+	</tr>
+	<tr>
+		<td>Số trang:</td>
+		<td>350</td>
+	</tr>
+	<tr>
+		<td>Kích thước:</td>
+		<td>14 x 20.5 cm</td>
+	</tr>
+	<tr>
+		<td>Định dạng:</td>
+		<td>Bìa cứng</td>
+	</tr>
+</tbody>
+
 									</table>', N'khcn1.PNG', N'khcn1.PNG', N'khcn1.PNG', N'khcn1.PNG', N'khcn1.PNG', 1, 2, 3, N'thuong mai', CAST(N'2025-10-11T17:14:08.300' AS DateTime), 3, NULL, 0, NULL, 0, 0)
 INSERT [dbo].[Products] ([Id], [Code], [Name], [Price], [Quality], [Views], [Description], [Specification], [Image1], [Image2], [Image3], [Image4], [Image5], [Active], [Manu_Id], [Cate_Id], [NameSearch], [CreateDay], [PersonCreate], [DeleteDay], [PersonDelete], [UpdateDay], [PersonUpdate], [Sales]) VALUES (6, N'KHCN-KT02', N'Toán học một thiên tiểu thuyết', 70000, 23, 0, N'Hầu hết mọi người đều thích toán, tiếc là họ không biết điều này!
 Bởi ai mà chẳng thấy hấp dẫn với những mẩu chuyện kỳ thú về toán: như “giáo phái” toán học kỳ lạ của Pythagoras thời cổ đại hay những cuộc thăm dò hệ mặt trời bằng công cụ toán học đầy kịch tính thời cận đại, hoặc gần đây hơn là sự kiện máy tính AlphaGo giành chiến thắng trước kỳ thủ cờ vây số một thế giới Lee Sedol bằng những nước đi “thần thánh” sử dụng lý thuyết xác suất.', N'<table class="table table-bordered">
-										<thead>
-											<tr>
-												<td colspan="2"><strong>Thông số chi tiết</strong></td>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Màn hình:</td>
-												<td>AMOLED6.43"Full HD+</td>
-											</tr>
-											<tr>
-												<td>Hệ điều hành:</td>
-												<td>Android 11</td>
-											</tr>
-											<tr>
-												<td>Camera sau:</td>
-												<td>Chính 64 MP & Phụ 8 MP, 2 MP, 2 MP</td>
-											</tr>
-											<tr>
-												<td>Camera trước:</td>
-												<td>13 MP</td>
-											</tr>
-											<tr>
-												<td>Chip:</td>
-												<td>MediaTek Helio G95</td>
-											</tr>
-											<tr>
-												<td>Ram:</td>
-												<td>8GB</td>
-											</tr>
-											<tr>
-												<td>Bộ nhớ trong:</td>
-												<td>128GB</td>
-											</tr>
-											<tr>
-												<td>SIM:</td>
-												<td>2 Nano SIMHỗ trợ 4G</td>
-											</tr>
-											<tr>
-												<td>Pin, Sạc:</td>
-												<td>5000 mAh33 W</td>
-											</tr>
-										</tbody>
+									<thead>
+	<tr>
+		<td colspan="2"><strong>Thông số chi tiết</strong></td>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Tên sách:</td>
+		<td>Harry Potter và Hòn đá Phù thủy</td>
+	</tr>
+	<tr>
+		<td>Tác giả:</td>
+		<td>J.K. Rowling</td>
+	</tr>
+	<tr>
+		<td>Thể loại:</td>
+		<td>Giả tưởng, phiêu lưu</td>
+	</tr>
+	<tr>
+		<td>Ngôn ngữ:</td>
+		<td>Tiếng Việt</td>
+	</tr>
+	<tr>
+		<td>Nhà xuất bản:</td>
+		<td>NXB Trẻ</td>
+	</tr>
+	<tr>
+		<td>Năm xuất bản:</td>
+		<td>2023</td>
+	</tr>
+	<tr>
+		<td>Số trang:</td>
+		<td>350</td>
+	</tr>
+	<tr>
+		<td>Kích thước:</td>
+		<td>14 x 20.5 cm</td>
+	</tr>
+	<tr>
+		<td>Định dạng:</td>
+		<td>Bìa cứng</td>
+	</tr>
+</tbody>
+
 									</table>', N'khcn2.PNG', N'khcn2.PNG', N'khcn2.PNG', N'khcn2.PNG', N'khcn2.PNG', 1, 3, 3, N'toan', CAST(N'2025-10-11T17:19:15.027' AS DateTime), 3, NULL, 0, NULL, 0, 0)
 INSERT [dbo].[Products] ([Id], [Code], [Name], [Price], [Quality], [Views], [Description], [Specification], [Image1], [Image2], [Image3], [Image4], [Image5], [Active], [Manu_Id], [Cate_Id], [NameSearch], [CreateDay], [PersonCreate], [DeleteDay], [PersonDelete], [UpdateDay], [PersonUpdate], [Sales]) VALUES (7, N'VHXH-LS01', N'Ngàn năm áo mũ', 72900, 16, 3, N'Ngàn năm áo mũ là một nghiên cứu công phu và đầy tham vọng của Trần Quang Đức: dựng lại bức tranh trang phục Việt Nam trong cung đình và ngoài dân gian trong khoảng một nghìn năm từ thời Lý đến thời Nguyễn (1009-1945).', N'<table class="table table-bordered">
 										<thead>
-											<tr>
-												<td colspan="2"><strong>Thông số chi tiết</strong></td>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Màn hình:</td>
-												<td>AMOLED6.43"Full HD+</td>
-											</tr>
-											<tr>
-												<td>Hệ điều hành:</td>
-												<td>Android 11</td>
-											</tr>
-											<tr>
-												<td>Camera sau:</td>
-												<td>Chính 64 MP & Phụ 8 MP, 2 MP, 2 MP</td>
-											</tr>
-											<tr>
-												<td>Camera trước:</td>
-												<td>13 MP</td>
-											</tr>
-											<tr>
-												<td>Chip:</td>
-												<td>MediaTek Helio G95</td>
-											</tr>
-											<tr>
-												<td>Ram:</td>
-												<td>8GB</td>
-											</tr>
-											<tr>
-												<td>Bộ nhớ trong:</td>
-												<td>128GB</td>
-											</tr>
-											<tr>
-												<td>SIM:</td>
-												<td>2 Nano SIMHỗ trợ 4G</td>
-											</tr>
-											<tr>
-												<td>Pin, Sạc:</td>
-												<td>5000 mAh33 W</td>
-											</tr>
-										</tbody>
+	<tr>
+		<td colspan="2"><strong>Thông số chi tiết</strong></td>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Tên sách:</td>
+		<td>Harry Potter và Hòn đá Phù thủy</td>
+	</tr>
+	<tr>
+		<td>Tác giả:</td>
+		<td>J.K. Rowling</td>
+	</tr>
+	<tr>
+		<td>Thể loại:</td>
+		<td>Giả tưởng, phiêu lưu</td>
+	</tr>
+	<tr>
+		<td>Ngôn ngữ:</td>
+		<td>Tiếng Việt</td>
+	</tr>
+	<tr>
+		<td>Nhà xuất bản:</td>
+		<td>NXB Trẻ</td>
+	</tr>
+	<tr>
+		<td>Năm xuất bản:</td>
+		<td>2023</td>
+	</tr>
+	<tr>
+		<td>Số trang:</td>
+		<td>350</td>
+	</tr>
+	<tr>
+		<td>Kích thước:</td>
+		<td>14 x 20.5 cm</td>
+	</tr>
+	<tr>
+		<td>Định dạng:</td>
+		<td>Bìa cứng</td>
+	</tr>
+</tbody>
+
 									</table>', N'vhxh1.PNG', N'vhxh1.PNG', N'vhxh1.PNG', N'vhxh1.PNG', N'vhxh1.PNG', 1, 4, 4, N'ngan nam', CAST(N'2025-10-11T17:22:51.280' AS DateTime), 3, NULL, 0, NULL, 0, 0)
 INSERT [dbo].[Products] ([Id], [Code], [Name], [Price], [Quality], [Views], [Description], [Specification], [Image1], [Image2], [Image3], [Image4], [Image5], [Active], [Manu_Id], [Cate_Id], [NameSearch], [CreateDay], [PersonCreate], [DeleteDay], [PersonDelete], [UpdateDay], [PersonUpdate], [Sales]) VALUES (8, N'VHXH-LS02', N'Những điều chưa biết về thuốc phiện', 65000, 28, 1, N'Những điều chưa biết về thuốc phiện là tập hợp các số báo chuyên đề [tháng 4-5, 1938] của hai bác sĩ L. Gaide và L. Neuberger, in trên tập san nổi tiếng Bulletin des Amis du Vieux Hué (Những người bạn Cố đô Huế), một tạp chí khoa học xã hội có giá trị bậc nhất Đông Dương suốt ba thập niên (1914 - 1944).', N'<table class="table table-bordered">
 										<thead>
-											<tr>
-												<td colspan="2"><strong>Thông số chi tiết</strong></td>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Màn hình:</td>
-												<td>OLED6.1"Super Retina XDR</td>
-											</tr>
-											<tr>
-												<td>Hệ điều hành:</td>
-												<td>iOS 14</td>
-											</tr>
-											<tr>
-												<td>Camera sau:</td>
-												<td>2 camera 12 MP</td>
-											</tr>
-											<tr>
-												<td>Camera trước:</td>
-												<td>12 MP</td>
-											</tr>
-											<tr>
-												<td>Chip:</td>
-												<td>Apple A14 Bionic</td>
-											</tr>
-											<tr>
-												<td>Ram:</td>
-												<td>4GB</td>
-											</tr>
-											<tr>
-												<td>Bộ nhớ trong:</td>
-												<td>64GB</td>
-											</tr>
-											<tr>
-												<td>SIM:</td>
-												<td>1 Nano SIM &amp; 1 eSIMHỗ trợ 5G</td>
-											</tr>
-											<tr>
-												<td>Pin, Sạc:</td>
-												<td>2815 mAh20 W</td>
-											</tr>
-										</tbody>
+	<tr>
+		<td colspan="2"><strong>Thông số chi tiết</strong></td>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Tên sách:</td>
+		<td>Đắc Nhân Tâm</td>
+	</tr>
+	<tr>
+		<td>Tác giả:</td>
+		<td>Dale Carnegie</td>
+	</tr>
+	<tr>
+		<td>Thể loại:</td>
+		<td>Kỹ năng sống</td>
+	</tr>
+	<tr>
+		<td>Ngôn ngữ:</td>
+		<td>Tiếng Việt</td>
+	</tr>
+	<tr>
+		<td>Nhà xuất bản:</td>
+		<td>NXB Tổng hợp TP.HCM</td>
+	</tr>
+	<tr>
+		<td>Năm xuất bản:</td>
+		<td>2022</td>
+	</tr>
+	<tr>
+		<td>Số trang:</td>
+		<td>320</td>
+	</tr>
+	<tr>
+		<td>Kích thước:</td>
+		<td>14 x 20.5 cm</td>
+	</tr>
+	<tr>
+		<td>Định dạng:</td>
+		<td>Bìa mềm</td>
+	</tr>
+</tbody>
+
 									</table>', N'vhxh2.PNG', N'vhxh2.PNG', N'vhxh2.PNG', N'vhxh2.PNG', N'vhxh2.PNG', 1, 2, 4, N'samsung-galaxy-s20-fe-256GB', CAST(N'2025-10-12T08:36:41.790' AS DateTime), 3, NULL, 0, NULL, 0, 0)
 INSERT [dbo].[Products] ([Id], [Code], [Name], [Price], [Quality], [Views], [Description], [Specification], [Image1], [Image2], [Image3], [Image4], [Image5], [Active], [Manu_Id], [Cate_Id], [NameSearch], [CreateDay], [PersonCreate], [DeleteDay], [PersonDelete], [UpdateDay], [PersonUpdate], [Sales]) VALUES (9, N'VHNT01', N'Chỉ để bay qua một bình minh', 77000, 23, 0, N'Chỉ để bay qua một bình minh là tập truyện ngắn của tác giả Đào Bá Đoàn hứa hẹn sẽ mang tới cho độc giả nhiều những cung bậc cảm xúc khác nhau đằng sau từng con chữ. Chắc chắn bạn đọc sẽ tìm thấy những lý lẽ rất riêng ngay cả khi khép sách lại. Chỉ để bay qua một bình minh tập truyện ngắn hay, giọng văn sắc sảo, đầy thiết tha mãnh liệt.', N'<table class="table table-bordered">
 										<thead>
-											<tr>
-												<td colspan="2"><strong>Thông số chi tiết</strong></td>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Màn hình:</td>
-												<td>AMOLED6.43"Full HD+</td>
-											</tr>
-											<tr>
-												<td>Hệ điều hành:</td>
-												<td>Android 11</td>
-											</tr>
-											<tr>
-												<td>Camera sau:</td>
-												<td>Chính 64 MP & Phụ 8 MP, 2 MP, 2 MP</td>
-											</tr>
-											<tr>
-												<td>Camera trước:</td>
-												<td>13 MP</td>
-											</tr>
-											<tr>
-												<td>Chip:</td>
-												<td>MediaTek Helio G95</td>
-											</tr>
-											<tr>
-												<td>Ram:</td>
-												<td>8GB</td>
-											</tr>
-											<tr>
-												<td>Bộ nhớ trong:</td>
-												<td>128GB</td>
-											</tr>
-											<tr>
-												<td>SIM:</td>
-												<td>2 Nano SIMHỗ trợ 4G</td>
-											</tr>
-											<tr>
-												<td>Pin, Sạc:</td>
-												<td>5000 mAh33 W</td>
-											</tr>
-										</tbody>
+	<tr>
+		<td colspan="2"><strong>Thông số chi tiết</strong></td>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Tên sách:</td>
+		<td>Chiến binh cầu vồng</td>
+	</tr>
+	<tr>
+		<td>Tác giả:</td>
+		<td>Andrea Hirata</td>
+	</tr>
+	<tr>
+		<td>Thể loại:</td>
+		<td>Tiểu thuyết, truyền cảm hứng</td>
+	</tr>
+	<tr>
+		<td>Ngôn ngữ:</td>
+		<td>Tiếng Việt</td>
+	</tr>
+	<tr>
+		<td>Nhà xuất bản:</td>
+		<td>NXB Hội Nhà Văn</td>
+	</tr>
+	<tr>
+		<td>Năm xuất bản:</td>
+		<td>2021</td>
+	</tr>
+	<tr>
+		<td>Số trang:</td>
+		<td>424</td>
+	</tr>
+	<tr>
+		<td>Kích thước:</td>
+		<td>13 x 20 cm</td>
+	</tr>
+	<tr>
+		<td>Định dạng:</td>
+		<td>Bìa mềm</td>
+	</tr>
+</tbody>
+
 									</table>', N'vhnt1.PNG', N'vhnt1.PNG', N'vhnt1.PNG', N'vhnt1.PNG', N'vhnt1.PNG', 1, 6, 5, N'vivo-y21', CAST(N'2025-10-12T08:43:24.690' AS DateTime), 3, NULL, 0, NULL, 0, 0)
 INSERT [dbo].[Products] ([Id], [Code], [Name], [Price], [Quality], [Views], [Description], [Specification], [Image1], [Image2], [Image3], [Image4], [Image5], [Active], [Manu_Id], [Cate_Id], [NameSearch], [CreateDay], [PersonCreate], [DeleteDay], [PersonDelete], [UpdateDay], [PersonUpdate], [Sales]) VALUES (10, N'VHNT02', N'CẢM ƠN NGƯỜI LỚN', 86000, 22, 3, N'Giới thiệu tóm tắt tác phẩm:Cảm Ơn Người Lớn - một áng văn lãng mạn trong giọng hài hước đặc biệt “dành cho trẻ em, và những ai từng là trẻ em”.Bạn sẽ gặp lại Mùi, Tủn, Tí sún, Hải cò… của Cho tôi xin một vé đi tuổi thơ, cùng chơi những trò chơi quen thuộc, và được đắm mình vào những ước mơ điên rồ, ngốc nghếch nhưng trong veo của tuổi mới lớn hồn nhiên và đầy ắp dự định.', N'<table class="table table-bordered">
 										<thead>
-											<tr>
-												<td colspan="2"><strong>Thông số chi tiết</strong></td>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Màn hình:</td>
-												<td>AMOLED6.43"Full HD+</td>
-											</tr>
-											<tr>
-												<td>Hệ điều hành:</td>
-												<td>Android 11</td>
-											</tr>
-											<tr>
-												<td>Camera sau:</td>
-												<td>Chính 64 MP & Phụ 8 MP, 2 MP, 2 MP</td>
-											</tr>
-											<tr>
-												<td>Camera trước:</td>
-												<td>13 MP</td>
-											</tr>
-											<tr>
-												<td>Chip:</td>
-												<td>MediaTek Helio G95</td>
-											</tr>
-											<tr>
-												<td>Ram:</td>
-												<td>8GB</td>
-											</tr>
-											<tr>
-												<td>Bộ nhớ trong:</td>
-												<td>128GB</td>
-											</tr>
-											<tr>
-												<td>SIM:</td>
-												<td>2 Nano SIMHỗ trợ 4G</td>
-											</tr>
-											<tr>
-												<td>Pin, Sạc:</td>
-												<td>5000 mAh33 W</td>
-											</tr>
-										</tbody>
+	<tr>
+		<td colspan="2"><strong>Thông số chi tiết</strong></td>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Tên sách:</td>
+		<td>Tuổi trẻ đáng giá bao nhiêu</td>
+	</tr>
+	<tr>
+		<td>Tác giả:</td>
+		<td>Rosie Nguyễn</td>
+	</tr>
+	<tr>
+		<td>Thể loại:</td>
+		<td>Phát triển bản thân</td>
+	</tr>
+	<tr>
+		<td>Ngôn ngữ:</td>
+		<td>Tiếng Việt</td>
+	</tr>
+	<tr>
+		<td>Nhà xuất bản:</td>
+		<td>NXB Hội Nhà Văn</td>
+	</tr>
+	<tr>
+		<td>Năm xuất bản:</td>
+		<td>2020</td>
+	</tr>
+	<tr>
+		<td>Số trang:</td>
+		<td>320</td>
+	</tr>
+	<tr>
+		<td>Kích thước:</td>
+		<td>14 x 20.5 cm</td>
+	</tr>
+	<tr>
+		<td>Định dạng:</td>
+		<td>Bìa mềm</td>
+	</tr>
+</tbody>
+
 									</table>', N'vhnt2.PNG', N'vhnt2.PNG', N'vhnt2.PNG', N'vhnt2.PNG', N'vhnt2.PNG', 1, 3, 5, N'oppo-a54', CAST(N'2025-10-12T08:55:41.287' AS DateTime), 3, NULL, 0, CAST(N'2025-10-12T15:38:00.430' AS DateTime), 3, 0)
 INSERT [dbo].[Products] ([Id], [Code], [Name], [Price], [Quality], [Views], [Description], [Specification], [Image1], [Image2], [Image3], [Image4], [Image5], [Active], [Manu_Id], [Cate_Id], [NameSearch], [CreateDay], [PersonCreate], [DeleteDay], [PersonDelete], [UpdateDay], [PersonUpdate], [Sales]) VALUES (12, N'GT01', N'Giáo trình giao tiếp ứng xử và kỹ năng bán hàng', 86000, 5, 2, N'Giáo trình Giao tiếp ứng xử và kỹ năng bán hàng đã được biên soạn, gồm 04 chương, nhằm trang bị cho học viên những kiến thức cơ bản về thị trường; về Marketing; các khái niệm cơ bản về giao tiếp ứng xử và kỹ năng bán hàng; các luận điểm cơ bản trong giao tiếp; những yêu cầu đối với người bán hàng bưu điện, rèn luyện kỹ năng bán hàng bưu điện.', N'<table class="table table-bordered">
 										<thead>
-											<tr>
-												<td colspan="2"><strong>Thông số chi tiết</strong></td>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Màn hình:</td>
-												<td>OLED6.1"Super Retina XDR</td>
-											</tr>
-											<tr>
-												<td>Hệ điều hành:</td>
-												<td>iOS 14</td>
-											</tr>
-											<tr>
-												<td>Camera sau:</td>
-												<td>2 camera 12 MP</td>
-											</tr>
-											<tr>
-												<td>Camera trước:</td>
-												<td>12 MP</td>
-											</tr>
-											<tr>
-												<td>Chip:</td>
-												<td>Apple A14 Bionic</td>
-											</tr>
-											<tr>
-												<td>Ram:</td>
-												<td>4GB</td>
-											</tr>
-											<tr>
-												<td>Bộ nhớ trong:</td>
-												<td>64GB</td>
-											</tr>
-											<tr>
-												<td>SIM:</td>
-												<td>1 Nano SIM &amp; 1 eSIMHỗ trợ 5G</td>
-											</tr>
-											<tr>
-												<td>Pin, Sạc:</td>
-												<td>2815 mAh20 W</td>
-											</tr>
-										</tbody>
+	<tr>
+		<td colspan="2"><strong>Thông số chi tiết</strong></td>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Tên sách:</td>
+		<td>Muôn kiếp nhân sinh</td>
+	</tr>
+	<tr>
+		<td>Tác giả:</td>
+		<td>Nguyên Phong</td>
+	</tr>
+	<tr>
+		<td>Thể loại:</td>
+		<td>Tâm linh, triết lý sống</td>
+	</tr>
+	<tr>
+		<td>Ngôn ngữ:</td>
+		<td>Tiếng Việt</td>
+	</tr>
+	<tr>
+		<td>Nhà xuất bản:</td>
+		<td>NXB Tổng hợp TP.HCM</td>
+	</tr>
+	<tr>
+		<td>Năm xuất bản:</td>
+		<td>2021</td>
+	</tr>
+	<tr>
+		<td>Số trang:</td>
+		<td>380</td>
+	</tr>
+	<tr>
+		<td>Kích thước:</td>
+		<td>15.5 x 24 cm</td>
+	</tr>
+	<tr>
+		<td>Định dạng:</td>
+		<td>Bìa mềm</td>
+	</tr>
+</tbody>
+
 									</table>', N'gt1.PNG', N'gt1.PNG', N'gt1.PNG', N'gt1.PNG', N'gt1.PNG', 1, 8, 6, N'nokia-c30', CAST(N'2025-10-12T15:29:36.920' AS DateTime), 3, NULL, 0, CAST(N'2025-10-12T15:35:28.207' AS DateTime), 3, 0)
 INSERT [dbo].[Products] ([Id], [Code], [Name], [Price], [Quality], [Views], [Description], [Specification], [Image1], [Image2], [Image3], [Image4], [Image5], [Active], [Manu_Id], [Cate_Id], [NameSearch], [CreateDay], [PersonCreate], [DeleteDay], [PersonDelete], [UpdateDay], [PersonUpdate], [Sales]) VALUES (13, N'GT02', N'Giáo trình ngôn ngữ lập trình C/C++', 43000, 15, 2, N'Trải nghiệm kỷ nguyên 5G hoàn toàn mới, nơi là người làm chủ tốc độ và dẫn đầu cuộc chơi, Samsung Galaxy A52s 5G với kết nối 5G siêu tốc, sức mạnh hiệu năng tuyệt đỉnh cùng bộ tứ camera chống rung quang học OIS vượt trội sẽ đưa bạn đến từ bất ngờ này đến bất ngờ khác.', N'<table class="table table-bordered">
-										<thead>
-											<tr>
-												<td colspan="2"><strong>Thông số chi tiết</strong></td>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Màn hình:</td>
-												<td>OLED6.1"Super Retina XDR</td>
-											</tr>
-											<tr>
-												<td>Hệ điều hành:</td>
-												<td>iOS 14</td>
-											</tr>
-											<tr>
-												<td>Camera sau:</td>
-												<td>2 camera 12 MP</td>
-											</tr>
-											<tr>
-												<td>Camera trước:</td>
-												<td>12 MP</td>
-											</tr>
-											<tr>
-												<td>Chip:</td>
-												<td>Apple A14 Bionic</td>
-											</tr>
-											<tr>
-												<td>Ram:</td>
-												<td>4GB</td>
-											</tr>
-											<tr>
-												<td>Bộ nhớ trong:</td>
-												<td>64GB</td>
-											</tr>
-											<tr>
-												<td>SIM:</td>
-												<td>1 Nano SIM &amp; 1 eSIMHỗ trợ 5G</td>
-											</tr>
-											<tr>
-												<td>Pin, Sạc:</td>
-												<td>2815 mAh20 W</td>
-											</tr>
-										</tbody>
+							<thead>
+	<tr>
+		<td colspan="2"><strong>Thông số chi tiết</strong></td>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Tiêu đề:</td>
+		<td>Nhà Giả Kim</td>
+	</tr>
+	<tr>
+		<td>Tác giả:</td>
+		<td>Paulo Coelho</td>
+	</tr>
+	<tr>
+		<td>Thể loại:</td>
+		<td>Tiểu thuyết, Huyền ảo</td>
+	</tr>
+	<tr>
+		<td>Ngôn ngữ:</td>
+		<td>Tiếng Việt</td>
+	</tr>
+	<tr>
+		<td>Nhà xuất bản:</td>
+		<td>Nhã Nam</td>
+	</tr>
+	<tr>
+		<td>Số trang:</td>
+		<td>228</td>
+	</tr>
+	<tr>
+		<td>Kích thước:</td>
+		<td>13 x 20.5 cm</td>
+	</tr>
+	<tr>
+		<td>Loại bìa:</td>
+		<td>Bìa mềm</td>
+	</tr>
+	<tr>
+		<td>Năm xuất bản:</td>
+		<td>2020</td>
+	</tr>
+</tbody>
+
 									</table>', N'gt2.PNG', N'gt2.PNG', N'gt2.PNG', N'gt2.PNG', N'gt2.PNG', 1, 2, 6, N'samsung-galaxy-a52s', CAST(N'2025-10-12T16:52:49.217' AS DateTime), 3, NULL, 0, NULL, 0, 0)
 INSERT [dbo].[Products] ([Id], [Code], [Name], [Price], [Quality], [Views], [Description], [Specification], [Image1], [Image2], [Image3], [Image4], [Image5], [Active], [Manu_Id], [Cate_Id], [NameSearch], [CreateDay], [PersonCreate], [DeleteDay], [PersonDelete], [UpdateDay], [PersonUpdate], [Sales]) VALUES (14, N'TLCN01', N'Thất Lạc Cõi Người', 99000, 30, 4, N'Thất Lạc Cõi Người là một tác phẩm kinh điển nổi tiếng của văn học Nhật Bản hiện đại và là cuốn tiểu thuyết cuối cùng của Dazai Osamu. Thất Lạc Cõi Người mang nhiều nét tự thuật, là một tiểu thuyết tự truyện. Sau khi hoàn thành tác phẩm này, Dazai cùng với người tình là Tomie trầm mình tự sát ở hồ nước ngọt Tamagawa, chấm dứt cuộc đời 39 năm ngắn ngủi.', N'<table class="table table-bordered">
-										<thead>
-											<tr>
-												<td colspan="2"><strong>Thông số chi tiết</strong></td>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Màn hình:</td>
-												<td>OLED6.1"Super Retina XDR</td>
-											</tr>
-											<tr>
-												<td>Hệ điều hành:</td>
-												<td>iOS 14</td>
-											</tr>
-											<tr>
-												<td>Camera sau:</td>
-												<td>2 camera 12 MP</td>
-											</tr>
-											<tr>
-												<td>Camera trước:</td>
-												<td>12 MP</td>
-											</tr>
-											<tr>
-												<td>Chip:</td>
-												<td>Apple A14 Bionic</td>
-											</tr>
-											<tr>
-												<td>Ram:</td>
-												<td>4GB</td>
-											</tr>
-											<tr>
-												<td>Bộ nhớ trong:</td>
-												<td>64GB</td>
-											</tr>
-											<tr>
-												<td>SIM:</td>
-												<td>1 Nano SIM &amp; 1 eSIMHỗ trợ 5G</td>
-											</tr>
-											<tr>
-												<td>Pin, Sạc:</td>
-												<td>2815 mAh20 W</td>
-											</tr>
-										</tbody>
+								<thead>
+  <tr>
+    <td colspan="2"><strong>Thông số chi tiết</strong></td>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Tiêu đề:</td>
+    <td>Nhà Giả Kim</td>
+  </tr>
+  <tr>
+    <td>Tác giả:</td>
+    <td>Paulo Coelho</td>
+  </tr>
+  <tr>
+    <td>Thể loại:</td>
+    <td>Tiểu thuyết, Huyền ảo</td>
+  </tr>
+  <tr>
+    <td>Ngôn ngữ:</td>
+    <td>Tiếng Việt</td>
+  </tr>
+  <tr>
+    <td>Nhà xuất bản:</td>
+    <td>Nhã Nam</td>
+  </tr>
+  <tr>
+    <td>Số trang:</td>
+    <td>228</td>
+  </tr>
+  <tr>
+    <td>Khổ sách:</td>
+    <td>13 x 20.5 cm</td>
+  </tr>
+  <tr>
+    <td>Hình thức:</td>
+    <td>Bìa mềm, in màu</td>
+  </tr>
+  <tr>
+    <td>Năm xuất bản:</td>
+    <td>2020</td>
+  </tr>
+</tbody>
+
 									</table>', N'tt1.PNG', N'tt1.PNG', N'tt1.PNG', N'tt1.PNG', N'tt1.PNG', 1, 2, 7, N'that-lac-coi-nguoi', CAST(N'2025-10-12T17:01:21.923' AS DateTime), 3, NULL, 0, CAST(N'2025-12-12T11:00:18.593' AS DateTime), 3, 0)
 INSERT [dbo].[Products] ([Id], [Code], [Name], [Price], [Quality], [Views], [Description], [Specification], [Image1], [Image2], [Image3], [Image4], [Image5], [Active], [Manu_Id], [Cate_Id], [NameSearch], [CreateDay], [PersonCreate], [DeleteDay], [PersonDelete], [UpdateDay], [PersonUpdate], [Sales]) VALUES (15, N'TT01', N'Thị Dân Tiểu Thuyết', 100000, 19, 23, N'Thị dân tiểu thuyết là cuốn tiểu thuyết thứ 4 của Nguyễn Việt Hà. Vẫn là không gian phố - ngõ - phố trở đi trở lại trong các tác phẩm của anh, Nguyễn Việt Hà không chỉ đi dọc phố trong không gian đương thời mà còn đi dọc suốt con lộ lịch sử của nó, để tìm ra nguyên ủy hồn phố.
 Và để hiện thực hóa một công việc lớn lao viết sử phố.', N'<table class="table table-bordered">
-										<thead>
-											<tr>
-												<td colspan="2"><strong>Thông số chi tiết</strong></td>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Màn hình:</td>
-												<td>OLED6.1"Super Retina XDR</td>
-											</tr>
-											<tr>
-												<td>Hệ điều hành:</td>
-												<td>iOS 14</td>
-											</tr>
-											<tr>
-												<td>Camera sau:</td>
-												<td>2 camera 12 MP</td>
-											</tr>
-											<tr>
-												<td>Camera trước:</td>
-												<td>12 MP</td>
-											</tr>
-											<tr>
-												<td>Chip:</td>
-												<td>Apple A14 Bionic</td>
-											</tr>
-											<tr>
-												<td>Ram:</td>
-												<td>4GB</td>
-											</tr>
-											<tr>
-												<td>Bộ nhớ trong:</td>
-												<td>64GB</td>
-											</tr>
-											<tr>
-												<td>SIM:</td>
-												<td>1 Nano SIM &amp; 1 eSIMHỗ trợ 5G</td>
-											</tr>
-											<tr>
-												<td>Pin, Sạc:</td>
-												<td>2815 mAh20 W</td>
-											</tr>
-										</tbody>
+							<thead>
+  <tr>
+    <td colspan="2"><strong>Thông số chi tiết</strong></td>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Tiêu đề:</td>
+    <td>Nhà Giả Kim</td>
+  </tr>
+  <tr>
+    <td>Tác giả:</td>
+    <td>Paulo Coelho</td>
+  </tr>
+  <tr>
+    <td>Thể loại:</td>
+    <td>Tiểu thuyết, Huyền ảo</td>
+  </tr>
+  <tr>
+    <td>Ngôn ngữ:</td>
+    <td>Tiếng Việt</td>
+  </tr>
+  <tr>
+    <td>Nhà xuất bản:</td>
+    <td>Nhã Nam</td>
+  </tr>
+  <tr>
+    <td>Số trang:</td>
+    <td>228</td>
+  </tr>
+  <tr>
+    <td>Khổ sách:</td>
+    <td>13 x 20.5 cm</td>
+  </tr>
+  <tr>
+    <td>Hình thức:</td>
+    <td>Bìa mềm, in màu</td>
+  </tr>
+  <tr>
+    <td>Năm xuất bản:</td>
+    <td>2020</td>
+  </tr>
+</tbody>
+
 									</table>', N'tt2.jpg', N'tt2.jpg', N'tt2.jpg', N'tt2.jpg', N'tt2.jpg', 1, 5, 7, N'realme-c21y', CAST(N'2025-10-14T10:32:45.793' AS DateTime), 3, NULL, 0, NULL, 0, 0)
 INSERT [dbo].[Products] ([Id], [Code], [Name], [Price], [Quality], [Views], [Description], [Specification], [Image1], [Image2], [Image3], [Image4], [Image5], [Active], [Manu_Id], [Cate_Id], [NameSearch], [CreateDay], [PersonCreate], [DeleteDay], [PersonDelete], [UpdateDay], [PersonUpdate], [Sales]) VALUES (16, N'TLTC01', N'Lá thư cuối cùng của iwai', 55000, 24, 3, N'Iwai Shunji sinh năm 1963 tại Miyagi. Là một đạo diễn, tiểu thuyết gia, nhà soạn nhạc nổi tiếng. Năm 1995, ông ra mắt làng phim trong vai trò đạo diễn phim điện ảnh Thư tình. Các tác phẩm tiêu biểu khác của ông bao gồm phim Swallowtail Butterfly, All About Lily Chou-Chou; tiểu thuyết Người cá Wallace, Chó giữ vườn, Cô dâu của Rip Van Winkle... ', N'<table class="table table-bordered">
-										<thead>
-											<tr>
-												<td colspan="2"><strong>Thông số chi tiết</strong></td>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Màn hình:</td>
-												<td>OLED6.1"Super Retina XDR</td>
-											</tr>
-											<tr>
-												<td>Hệ điều hành:</td>
-												<td>iOS 14</td>
-											</tr>
-											<tr>
-												<td>Camera sau:</td>
-												<td>2 camera 12 MP</td>
-											</tr>
-											<tr>
-												<td>Camera trước:</td>
-												<td>12 MP</td>
-											</tr>
-											<tr>
-												<td>Chip:</td>
-												<td>Apple A14 Bionic</td>
-											</tr>
-											<tr>
-												<td>Ram:</td>
-												<td>4GB</td>
-											</tr>
-											<tr>
-												<td>Bộ nhớ trong:</td>
-												<td>64GB</td>
-											</tr>
-											<tr>
-												<td>SIM:</td>
-												<td>1 Nano SIM &amp; 1 eSIMHỗ trợ 5G</td>
-											</tr>
-											<tr>
-												<td>Pin, Sạc:</td>
-												<td>2815 mAh20 W</td>
-											</tr>
-										</tbody>
+							<thead>
+	<tr>
+		<td colspan="2"><strong>Thông số chi tiết</strong></td>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Tên sách:</td>
+		<td>1984</td>
+	</tr>
+	<tr>
+		<td>Tác giả:</td>
+		<td>George Orwell</td>
+	</tr>
+	<tr>
+		<td>Thể loại:</td>
+		<td>Chính trị, viễn tưởng</td>
+	</tr>
+	<tr>
+		<td>Ngôn ngữ:</td>
+		<td>Tiếng Việt</td>
+	</tr>
+	<tr>
+		<td>Nhà xuất bản:</td>
+		<td>NXB Văn học</td>
+	</tr>
+	<tr>
+		<td>Năm xuất bản:</td>
+		<td>2022</td>
+	</tr>
+	<tr>
+		<td>Số trang:</td>
+		<td>328</td>
+	</tr>
+	<tr>
+		<td>Kích thước:</td>
+		<td>14 x 20.5 cm</td>
+	</tr>
+	<tr>
+		<td>Hình thức:</td>
+		<td>Bìa mềm</td>
+	</tr>
+</tbody>
+
 									</table>', N'tltc1.PNG', N'tltc1.PNG', N'tltc1.PNG', N'tltc1.PNG', N'tltc1.PNG', 1, 5, 8, N'realme8', CAST(N'2025-10-14T12:41:42.923' AS DateTime), 3, NULL, 0, CAST(N'2025-10-14T13:31:18.393' AS DateTime), 3, 0)
 INSERT [dbo].[Products] ([Id], [Code], [Name], [Price], [Quality], [Views], [Description], [Specification], [Image1], [Image2], [Image3], [Image4], [Image5], [Active], [Manu_Id], [Cate_Id], [NameSearch], [CreateDay], [PersonCreate], [DeleteDay], [PersonDelete], [UpdateDay], [PersonUpdate], [Sales]) VALUES (17, N'TLTC02', N'Từng nốt nhạc ngân', 70000, 28, 3, N'Với kỹ năng điêu luyện và cảm xúc dạt dào, Richard đã quen tắm mình trong sự tung hô nhiệt liệt từ khán giả trong các buổi độc tấu piano do anh biểu diễn tại những nhà hát giao hưởng danh tiếng nhất thế giới. Cho đến một ngày, cuộc đời giáng xuống anh căn bệnh ALS – chứng xơ cứng teo cơ mà Stephen Hawking từng phải chiến đấu chống lại hơn nửa thế kỷ.', N'<table class="table table-bordered">
-										<thead>
-											<tr>
-												<td colspan="2"><strong>Thông số chi tiết</strong></td>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Màn hình:</td>
-												<td>OLED6.1"Super Retina XDR</td>
-											</tr>
-											<tr>
-												<td>Hệ điều hành:</td>
-												<td>iOS 14</td>
-											</tr>
-											<tr>
-												<td>Camera sau:</td>
-												<td>2 camera 12 MP</td>
-											</tr>
-											<tr>
-												<td>Camera trước:</td>
-												<td>12 MP</td>
-											</tr>
-											<tr>
-												<td>Chip:</td>
-												<td>Apple A14 Bionic</td>
-											</tr>
-											<tr>
-												<td>Ram:</td>
-												<td>4GB</td>
-											</tr>
-											<tr>
-												<td>Bộ nhớ trong:</td>
-												<td>64GB</td>
-											</tr>
-											<tr>
-												<td>SIM:</td>
-												<td>1 Nano SIM &amp; 1 eSIMHỗ trợ 5G</td>
-											</tr>
-											<tr>
-												<td>Pin, Sạc:</td>
-												<td>2815 mAh20 W</td>
-											</tr>
-										</tbody>
+								<thead>
+	<tr>
+		<td colspan="2"><strong>Thông số chi tiết</strong></td>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Tên sách:</td>
+		<td>1984</td>
+	</tr>
+	<tr>
+		<td>Tác giả:</td>
+		<td>George Orwell</td>
+	</tr>
+	<tr>
+		<td>Thể loại:</td>
+		<td>Chính trị, viễn tưởng</td>
+	</tr>
+	<tr>
+		<td>Ngôn ngữ:</td>
+		<td>Tiếng Việt</td>
+	</tr>
+	<tr>
+		<td>Nhà xuất bản:</td>
+		<td>NXB Văn học</td>
+	</tr>
+	<tr>
+		<td>Năm xuất bản:</td>
+		<td>2022</td>
+	</tr>
+	<tr>
+		<td>Số trang:</td>
+		<td>328</td>
+	</tr>
+	<tr>
+		<td>Kích thước:</td>
+		<td>14 x 20.5 cm</td>
+	</tr>
+	<tr>
+		<td>Định dạng:</td>
+		<td>Bìa mềm</td>
+	</tr>
+</tbody>
+
 									</table>', N'tltc2.PNG', N'tltc2.PNG', N'tltc2.PNG', N'tltc2.PNG', N'tltc2.PNG', 1, 2, 8, N'samsung-galaxy-z-flip', CAST(N'2025-10-14T13:37:18.700' AS DateTime), 3, NULL, 0, NULL, 0, 0)
 INSERT [dbo].[Products] ([Id], [Code], [Name], [Price], [Quality], [Views], [Description], [Specification], [Image1], [Image2], [Image3], [Image4], [Image5], [Active], [Manu_Id], [Cate_Id], [NameSearch], [CreateDay], [PersonCreate], [DeleteDay], [PersonDelete], [UpdateDay], [PersonUpdate], [Sales]) VALUES (18, N'TN01', N'Doraemon truyện dài', 30000, 23, 4, N'Cũng giống như bộ truyện ngắn, đây là bộ tuyển tập gồm những chuyến phiêu lưu của Doraemon, Nobita và các bạn đến những vùng đất mới, vốn đã rất quen thuộc với độc giả nhiều thế hệ: Tới vương quốc trên mây, nước Nhật thời nguyên thủy, Khai phá vũ trụ, hành tinh muông thú... ', N'<table class="table table-bordered">
-										<thead>
-											<tr>
-												<td colspan="2"><strong>Thông số chi tiết</strong></td>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Màn hình:</td>
-												<td>OLED6.1"Super Retina XDR</td>
-											</tr>
-											<tr>
-												<td>Hệ điều hành:</td>
-												<td>iOS 14</td>
-											</tr>
-											<tr>
-												<td>Camera sau:</td>
-												<td>2 camera 12 MP</td>
-											</tr>
-											<tr>
-												<td>Camera trước:</td>
-												<td>12 MP</td>
-											</tr>
-											<tr>
-												<td>Chip:</td>
-												<td>Apple A14 Bionic</td>
-											</tr>
-											<tr>
-												<td>Ram:</td>
-												<td>4GB</td>
-											</tr>
-											<tr>
-												<td>Bộ nhớ trong:</td>
-												<td>64GB</td>
-											</tr>
-											<tr>
-												<td>SIM:</td>
-												<td>1 Nano SIM &amp; 1 eSIMHỗ trợ 5G</td>
-											</tr>
-											<tr>
-												<td>Pin, Sạc:</td>
-												<td>2815 mAh20 W</td>
-											</tr>
-										</tbody>
+								<thead>
+	<tr>
+		<td colspan="2"><strong>Thông số chi tiết</strong></td>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Tên sách:</td>
+		<td>1984</td>
+	</tr>
+	<tr>
+		<td>Tác giả:</td>
+		<td>George Orwell</td>
+	</tr>
+	<tr>
+		<td>Thể loại:</td>
+		<td>Chính trị, viễn tưởng</td>
+	</tr>
+	<tr>
+		<td>Ngôn ngữ:</td>
+		<td>Tiếng Việt</td>
+	</tr>
+	<tr>
+		<td>Nhà xuất bản:</td>
+		<td>NXB Văn học</td>
+	</tr>
+	<tr>
+		<td>Năm xuất bản:</td>
+		<td>2022</td>
+	</tr>
+	<tr>
+		<td>Số trang:</td>
+		<td>328</td>
+	</tr>
+	<tr>
+		<td>Kích thước:</td>
+		<td>14 x 20.5 cm</td>
+	</tr>
+	<tr>
+		<td>Định dạng:</td>
+		<td>Bìa mềm</td>
+	</tr>
+</tbody>
+
 									</table>', N'tn1.PNG', N'tn1.PNG', N'tn1.PNG', N'tn1.PNG', N'tn1.PNG', 1, 2, 9, N'samsung-galaxy-a12', CAST(N'2025-10-14T13:43:01.147' AS DateTime), 3, NULL, 0, NULL, 0, 0)
 INSERT [dbo].[Products] ([Id], [Code], [Name], [Price], [Quality], [Views], [Description], [Specification], [Image1], [Image2], [Image3], [Image4], [Image5], [Active], [Manu_Id], [Cate_Id], [NameSearch], [CreateDay], [PersonCreate], [DeleteDay], [PersonDelete], [UpdateDay], [PersonUpdate], [Sales]) VALUES (19, N'TN02', N'Thợ làm vườn nhí', 50000, 28, 14, N'Thợ làm vườn nhí là cuốn cẩm nang dành cho các bạn nhỏ làm quen với công việc làm vườn. Bằng ngôn ngữ dễ hiểu kết hợp cùng hình ảnh minh họa đáng yêu, cuốn sách sẽ trang bị cho các bạn những hiểu biết cơ bản về làm vườn như chuẩn bị đất, chọn hạt giống, gieo hạt, tưới nước, bảo vệ cây.', N'<table class="table table-bordered">
-										<thead>
-											<tr>
-												<td colspan="2"><strong>Thông số chi tiết</strong></td>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Màn hình:</td>
-												<td>OLED6.1"Super Retina XDR</td>
-											</tr>
-											<tr>
-												<td>Hệ điều hành:</td>
-												<td>iOS 14</td>
-											</tr>
-											<tr>
-												<td>Camera sau:</td>
-												<td>2 camera 12 MP</td>
-											</tr>
-											<tr>
-												<td>Camera trước:</td>
-												<td>12 MP</td>
-											</tr>
-											<tr>
-												<td>Chip:</td>
-												<td>Apple A14 Bionic</td>
-											</tr>
-											<tr>
-												<td>Ram:</td>
-												<td>4GB</td>
-											</tr>
-											<tr>
-												<td>Bộ nhớ trong:</td>
-												<td>64GB</td>
-											</tr>
-											<tr>
-												<td>SIM:</td>
-												<td>1 Nano SIM &amp; 1 eSIMHỗ trợ 5G</td>
-											</tr>
-											<tr>
-												<td>Pin, Sạc:</td>
-												<td>2815 mAh20 W</td>
-											</tr>
-										</tbody>
+								<thead>
+	<tr>
+		<td colspan="2"><strong>Thông số chi tiết</strong></td>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Tên sách:</td>
+		<td>Đi tìm lẽ sống</td>
+	</tr>
+	<tr>
+		<td>Tác giả:</td>
+		<td>Viktor E. Frankl</td>
+	</tr>
+	<tr>
+		<td>Thể loại:</td>
+		<td>Tâm lý học, tự truyện</td>
+	</tr>
+	<tr>
+		<td>Ngôn ngữ:</td>
+		<td>Tiếng Việt</td>
+	</tr>
+	<tr>
+		<td>Nhà xuất bản:</td>
+		<td>NXB Thế Giới</td>
+	</tr>
+	<tr>
+		<td>Năm xuất bản:</td>
+		<td>2020</td>
+	</tr>
+	<tr>
+		<td>Số trang:</td>
+		<td>248</td>
+	</tr>
+	<tr>
+		<td>Kích thước:</td>
+		<td>13 x 20.5 cm</td>
+	</tr>
+	<tr>
+		<td>Định dạng:</td>
+		<td>Bìa mềm</td>
+	</tr>
+</tbody>
+
 									</table>', N'tn2.png', N'tn2.png', N'tn2.png', N'tn2.png', N'tn2.png', 1, 2, 9, N'samsung-galaxy-a32', CAST(N'2025-10-14T13:49:03.253' AS DateTime), 3, NULL, 0, NULL, 0, 0)
 INSERT [dbo].[Products] ([Id], [Code], [Name], [Price], [Quality], [Views], [Description], [Specification], [Image1], [Image2], [Image3], [Image4], [Image5], [Active], [Manu_Id], [Cate_Id], [NameSearch], [CreateDay], [PersonCreate], [DeleteDay], [PersonDelete], [UpdateDay], [PersonUpdate], [Sales]) VALUES (21, N'5CM1S001', N'Truyện 5 Centimet Trên Giây', 39500, 16, 10, N'Bằng giọng văn tinh tế, truyền cảm, Năm centimet trên giây mang đến những khắc họa mới về tâm hồn và khả năng tồn tại của cảm xúc, bắt đầu từ tình yêu trong sáng, ngọt ngào của một cô bé và cậu bé. Ba giai đoạn, ba mảnh ghép, ba ngôi kể chuyện khác nhau nhưng đều xoay quanh nhân vật nam chính, người luôn bị ám ảnh bởi kí ức và những điều đã qua…
 <br>
@@ -3100,55 +3116,17 @@ Chúng tôi tin rằng những người trẻ tuổi luôn mang trong mình khá
 											</tr>
 										</tbody>
 									</table>', N'cafe-cung-tony-2017.jpg', N'cafe-cung-tony-2017-2.jpg', N'cafe-cung-tony-2017-3.jpg', N'cafe-cung-tony-2017-4.jpg', N'cafe-cung-tony-2017-5.jpg', 1, 7, 5, N'cafe-cung-tony-2017', CAST(N'2025-12-20T08:10:40.910' AS DateTime), 3, NULL, 0, NULL, 0, 90000)
-INSERT [dbo].[Products] ([Id], [Code], [Name], [Price], [Quality], [Views], [Description], [Specification], [Image1], [Image2], [Image3], [Image4], [Image5], [Active], [Manu_Id], [Cate_Id], [NameSearch], [CreateDay], [PersonCreate], [DeleteDay], [PersonDelete], [UpdateDay], [PersonUpdate], [Sales]) VALUES (37, N'TTDGBN21', N'Tuổi Trẻ Đáng Giá Bao Nhiêu (Tái Bản 2025)', 78300, 22, 4, N'Nhưng tôi thấy cuốn sách còn thể hiện một phần thứ tư nữa, đó là ĐỌC.
-<br>
-Hãy đọc sách, nếu bạn đọc sách một cách bền bỉ, sẽ đến lúc bạn bị thôi thúc không ngừng bởi ý muốn viết nên cuốn sách của riêng mình.
-<br>
-Nếu tôi còn ở tuổi đôi mươi, hẳn là tôi sẽ đọc Tuổi trẻ đáng giá bao nhiêu? nhiều hơn một lần.”', N'<table class="table table-bordered">
-										<thead>
-											<tr>
-												<td colspan="2"><strong>Thông số chi tiết</strong></td>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Tên nhà cung cấp:</td>
-												<td>Nhà xuất bản Kim Đồng</td>
-											</tr>
-											<tr>
-												<td>Tác giả:</td>
-												<td>Koyoharu Goutage</td>
-											</tr>
-											<tr>
-												<td>NXB</td>
-												<td>Kim Đồng</td>
-											</tr>
-											<tr>
-												<td>Năm XB:</td>
-												<td>2025</td>
-											</tr>
-											<tr>
-												<td>Trọng lượng:</td>
-												<td>250</td>
-											</tr>
-											<tr>
-												<td>Kích thước bao bì:</td>
-												<td>19 x 13 cm</td>
-											</tr>
-											<tr>
-												<td>Số trang:</td>
-												<td>204</td>
-											</tr>
-											<tr>
-												<td>Hình thức:</td>
-												<td>Bìa mềm</td>
-											</tr>
-											<tr>
-												<td>Độ tuổi:</td>
-												<td>16+</td>
-											</tr>
-										</tbody>
-									</table>', N'tuoi-tre-dang-gia-bao-nhieu-2025-1.jpg', N'tuoi-tre-dang-gia-bao-nhieu-2025-2.jpg', N'tuoi-tre-dang-gia-bao-nhieu-2025-3.jpg', N'tuoi-tre-dang-gia-bao-nhieu-2025-4.jpg', N'tuoi-tre-dang-gia-bao-nhieu-2025-5.jpg', 1, 10, 5, N'tuoi-tre-dang-gia-bao-nhieu-2025', CAST(N'2025-12-20T08:18:29.927' AS DateTime), 3, NULL, 0, NULL, 0, 90000)
+DELETE FROM [dbo].[Comments]
+WHERE [Product_Id] = 37;
+
+DELETE FROM [dbo].[Favorites]
+WHERE [Product_Id] = 37;
+
+DELETE FROM [dbo].[Products]
+WHERE [Id] = 37;
+
+
+
 INSERT [dbo].[Products] ([Id], [Code], [Name], [Price], [Quality], [Views], [Description], [Specification], [Image1], [Image2], [Image3], [Image4], [Image5], [Active], [Manu_Id], [Cate_Id], [NameSearch], [CreateDay], [PersonCreate], [DeleteDay], [PersonDelete], [UpdateDay], [PersonUpdate], [Sales]) VALUES (38, N'KAKNCDTH01', N'Khéo Ăn Nói Sẽ Có Được Thiên Hạ - Bản Mới', 88000, 24, 2, N'Trong xã hội thông tin hiện đại, sự im lặng không còn là vàng nữa, nếu không biết cách giao tiếp thì dù là vàng cũng sẽ bị chôn vùi. Trong cuộc đời một con người, từ xin việc đến thăng tiến, từ tình yêu đến hôn nhân, từ tiếp thị cho đến đàm phán, từ xã giao đến làm việc... không thể không cần đến kĩ năng và khả năng giao tiếp. Khéo ăn khéo nói thì đi đâu, làm gì cũng gặp thuận lợi. Không khéo ăn nói, bốn bề đều là trở ngại, khó khăn. Trong thời đại thông tin và liên lạc phát triển nhanh chóng, tin tức được cập nhật liên tục, các công cụ thông tin và kĩ thuật truyền thông được ứng dụng rộng rãi như ngày nay thì việc khéo ăn nói đã trở thành “cái tài số một thiên hạ”. Trong khoảng thời gian ngắn nhất, nếu ai có thể nêu bật được khả năng.', N'<table class="table table-bordered">
 										<thead>
 											<tr>
@@ -3491,3 +3469,14 @@ ALTER TABLE [dbo].[User_Role]  WITH CHECK ADD FOREIGN KEY([User_Id])
 REFERENCES [dbo].[Users] ([Id])
 ON DELETE CASCADE
 GO
+
+ALTER TABLE [dbo].[Users] ADD providertype NVARCHAR(20)
+ALTER TABLE [dbo].[Orders] ADD paymentstatus NVARCHAR(20)
+ALTER TABLE [dbo].[Orders] ADD transactionid NVARCHAR(255)
+ALTER TABLE [dbo].[Orders] ADD bankcode NVARCHAR(50)
+
+select* from [dbo].[Users]
+
+SELECT * FROM [dbo].[Orders]
+SELECT * FROM orders WHERE product_id = 37;
+ALTER TABLE Products ALTER COLUMN Image2 NVARCHAR(255) NULL;
